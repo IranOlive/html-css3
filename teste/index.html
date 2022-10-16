@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Ao diminuir o tamando da tela, percebemos a imagem do rato se adaptando ao tamanho ajustado, confira abaixo:</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/rato-p.png" type="image/png">
+        <source media="(max-width: 1200px)" srcset="imagens/rato-m.png" type="image/png">
+        <img src="imagens/rato-g.png" alt="rato-g">
+    </picture>
+    
+</body>
+</html>
